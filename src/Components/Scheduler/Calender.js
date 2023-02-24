@@ -17,7 +17,7 @@ const CalendarPage = (props) => {
       <div>
         <h3>Calender Page</h3>
         <br/>
-        <Calendar onChange={setValue}/>
+        <Calendar activeStartDate={today} onChange={setValue}/>
         <button type="button"><Link to='/'>Home</Link></button>
       
       </div>

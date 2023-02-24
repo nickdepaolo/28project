@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Components/home";
-import Profile1 from "./Components/profile1";
-import Profile2 from "./Components/profile2";
-import Profile3 from "./Components/profile3";
+import Profile1 from "./Components/Profiles/profile1";
+import Profile2 from "./Components/Profiles/profile2";
+import Profile3 from "./Components/Profiles/profile3";
 import CalendarPage from "./Components/Scheduler/Calender";
 
 function App() {
